@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Machine Learning Application
 
-# Run and deploy your AI Studio app
+A web-based interactive machine learning platform built to provide real-time data processing and model insights.
 
-This contains everything you need to run your app locally.
+🌐 **Live Demo:** https://lnkd.in/esmztyG9
 
-View your app in AI Studio: https://ai.studio/apps/a61a5f54-2296-4660-8b28-0f70b4eee933
+---
 
-## Run Locally
+## 📌 Features
 
-**Prerequisites:**  Node.js
+- **Interactive UI:** Clean, responsive interface for uploading and analyzing data.
+- **Real-Time Predictions:** Instant machine learning outputs and classification results.
+- **Data Visualization:** Graphical display of model insights and prediction metrics.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Frontend:** React, TypeScript, Vite
+- **Styling:** CSS3, Tailwind CSS
+- **Deployment:** Vercel
+
+---
+
+## 💻 Setup & Local Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/nermeenrashad/ml-project.git](https://github.com/nermeenrashad/ml-project.git)
+   cd ml-project
+   npm install
+   npm run dev
